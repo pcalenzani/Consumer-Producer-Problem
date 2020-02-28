@@ -1,0 +1,486 @@
+Time: 2019-5-5 12:53:16
+
+	Number of Buffers: 4
+	Number of Producers: 10
+	Number of Consumers: 8
+	Number of Items Produced: 15
+	Number of Items Consumed: 18
+	Over consume amount: 6
+	Producer sleep time: 2
+	Consumer sleep time: 1
+
+	Item [1] was produced by: 1
+	Item [2] was produced by: 2
+	Item [3] was produced by: 3
+	Item [4] was produced by: 4
+	Item [5] was produced by: 5
+	Item [1] was consumed by: 1
+	Item [6] was produced by: 6
+	Item [2] was consumed by: 2
+	Item [7] was produced by: 7
+	Item [3] was consumed by: 3
+	Item [8] was produced by: 8
+	Item [4] was consumed by: 4
+	Item [9] was produced by: 9
+	Item [5] was consumed by: 5
+	Item [10] was produced by: 10
+	Item [6] was consumed by: 6
+	Item [7] was consumed by: 7
+	Item [8] was consumed by: 8
+	Item [9] was consumed by: 1
+	Item [10] was consumed by: 2
+	Item [11] was produced by: 1
+	Item [12] was produced by: 2
+	Item [13] was produced by: 3
+	Item [11] was consumed by: 3
+	Item [12] was consumed by: 5
+	Item [13] was consumed by: 4
+	Item [14] was produced by: 4
+	Item [14] was consumed by: 6
+	Item [15] was produced by: 5
+	Item [15] was consumed by: 1
+	Item [16] was produced by: 6
+	Item [17] was produced by: 7
+	Item [16] was consumed by: 2
+	Item [17] was consumed by: 7
+	Item [18] was produced by: 8
+	Item [18] was consumed by: 8
+	Item [19] was produced by: 9
+	Item [20] was produced by: 10
+	Item [19] was consumed by: 3
+	Item [20] was consumed by: 5
+	Item [21] was produced by: 4
+	Item [21] was consumed by: 4
+	Item [22] was produced by: 3
+	Item [23] was produced by: 2
+	Item [24] was produced by: 1
+	Item [22] was consumed by: 7
+	Item [23] was consumed by: 1
+	Item [24] was consumed by: 6
+	Item [25] was produced by: 5
+	Item [25] was consumed by: 2
+	Item [26] was produced by: 7
+	Item [27] was produced by: 6
+	Item [26] was consumed by: 5
+	Item [27] was consumed by: 8
+	Item [28] was produced by: 8
+	Item [28] was consumed by: 3
+	Item [29] was produced by: 9
+	Item [30] was produced by: 10
+	Item [29] was consumed by: 7
+	Item [30] was consumed by: 1
+	Item [31] was produced by: 4
+	Item [31] was consumed by: 4
+	Item [32] was produced by: 2
+	Item [33] was produced by: 3
+	Item [34] was produced by: 1
+	Item [32] was consumed by: 7
+	Item [33] was consumed by: 2
+	Item [34] was consumed by: 5
+	Item [35] was produced by: 5
+	Item [35] was consumed by: 8
+	Item [36] was produced by: 7
+	Item [37] was produced by: 6
+	Item [36] was consumed by: 3
+	Item [37] was consumed by: 6
+	Item [38] was produced by: 8
+	Item [38] was consumed by: 1
+	Item [39] was produced by: 9
+	Item [40] was produced by: 10
+	Item [39] was consumed by: 7
+	Item [40] was consumed by: 2
+	Item [41] was produced by: 2
+	Item [42] was produced by: 3
+	Item [43] was produced by: 1
+	Item [41] was consumed by: 5
+	Item [42] was consumed by: 4
+	Item [43] was consumed by: 8
+	Item [44] was produced by: 4
+	Item [44] was consumed by: 3
+	Item [45] was produced by: 5
+	Item [45] was consumed by: 6
+	Item [46] was produced by: 7
+	Item [47] was produced by: 6
+	Item [46] was consumed by: 1
+	Item [47] was consumed by: 7
+	Item [48] was produced by: 8
+	Item [48] was consumed by: 2
+	Item [49] was produced by: 9
+	Item [50] was produced by: 10
+	Item [49] was consumed by: 5
+	Item [50] was consumed by: 3
+	Item [51] was produced by: 3
+	Item [52] was produced by: 1
+	Item [53] was produced by: 2
+	Item [54] was produced by: 4
+	Item [51] was consumed by: 4
+	Item [52] was consumed by: 6
+	Item [53] was consumed by: 8
+	Item [54] was consumed by: 7
+	Item [55] was produced by: 5
+	Item [55] was consumed by: 1
+	Item [56] was produced by: 6
+	Item [57] was produced by: 7
+	Item [56] was consumed by: 3
+	Item [57] was consumed by: 2
+	Item [58] was produced by: 8
+	Item [58] was consumed by: 5
+	Item [59] was produced by: 9
+	Item [60] was produced by: 10
+	Item [59] was consumed by: 7
+	Item [60] was consumed by: 4
+	Item [61] was produced by: 1
+	Item [62] was produced by: 2
+	Item [63] was produced by: 3
+	Item [61] was consumed by: 7
+	Item [64] was produced by: 4
+	Item [62] was consumed by: 1
+	Item [63] was consumed by: 3
+	Item [64] was consumed by: 4
+	Item [65] was produced by: 5
+	Item [65] was consumed by: 2
+	Item [66] was produced by: 7
+	Item [67] was produced by: 6
+	Item [66] was consumed by: 5
+	Item [67] was consumed by: 6
+	Item [68] was produced by: 8
+	Item [68] was consumed by: 8
+	Item [69] was produced by: 9
+	Item [70] was produced by: 10
+	Item [69] was consumed by: 1
+	Item [70] was consumed by: 3
+	Item [71] was produced by: 2
+	Item [72] was produced by: 1
+	Item [73] was produced by: 3
+	Item [71] was consumed by: 7
+	Item [72] was consumed by: 4
+	Item [73] was consumed by: 2
+	Item [74] was produced by: 5
+	Item [75] was produced by: 6
+	Item [76] was produced by: 7
+	Item [74] was consumed by: 3
+	Item [75] was consumed by: 5
+	Item [76] was consumed by: 1
+	Item [77] was produced by: 4
+	Item [77] was consumed by: 6
+	Item [78] was produced by: 8
+	Item [78] was consumed by: 8
+	Item [79] was produced by: 9
+	Item [80] was produced by: 10
+	Item [79] was consumed by: 4
+	Item [80] was consumed by: 7
+	Item [81] was produced by: 1
+	Item [82] was produced by: 2
+	Item [83] was produced by: 3
+	Item [81] was consumed by: 3
+	Item [82] was consumed by: 5
+	Item [83] was consumed by: 2
+	Item [84] was produced by: 5
+	Item [85] was produced by: 6
+	Item [86] was produced by: 7
+	Item [84] was consumed by: 1
+	Item [87] was produced by: 4
+	Item [85] was consumed by: 4
+	Item [86] was consumed by: 6
+	Item [87] was consumed by: 8
+	Item [88] was produced by: 8
+	Item [88] was consumed by: 7
+	Item [89] was produced by: 9
+	Item [90] was produced by: 10
+	Item [89] was consumed by: 5
+	Item [90] was consumed by: 3
+	Item [91] was produced by: 2
+	Item [92] was produced by: 1
+	Item [93] was produced by: 3
+	Item [91] was consumed by: 3
+	Item [92] was consumed by: 1
+	Item [93] was consumed by: 5
+	Item [94] was produced by: 7
+	Item [95] was produced by: 6
+	Item [96] was produced by: 5
+	Item [97] was produced by: 4
+	Item [94] was consumed by: 4
+	Item [95] was consumed by: 6
+	Item [96] was consumed by: 8
+	Item [97] was consumed by: 7
+	Item [98] was produced by: 8
+	Item [98] was consumed by: 2
+	Item [99] was produced by: 10
+	Item [100] was produced by: 9
+	Item [99] was consumed by: 1
+	Item [100] was consumed by: 3
+	Item [101] was consumed by: 1
+	Item [103] was consumed by: 5
+	Item [101] was produced by: 1
+	Item [102] was produced by: 3
+	Item [102] was consumed by: 4
+	Item [103] was produced by: 2
+	Item [104] was produced by: 6
+	Item [105] was produced by: 7
+	Item [106] was produced by: 5
+	Item [107] was produced by: 4
+	Item [104] was consumed by: 3
+	Item [105] was consumed by: 2
+	Item [106] was consumed by: 8
+	Item [107] was consumed by: 7
+	Item [108] was produced by: 8
+	Item [108] was consumed by: 6
+	Item [109] was produced by: 9
+	Item [110] was produced by: 10
+	Item [109] was consumed by: 5
+	Item [110] was consumed by: 1
+	Item [111] was produced by: 3
+	Item [111] was consumed by: 4
+	Item [112] was produced by: 2
+	Item [113] was produced by: 1
+	Item [112] was consumed by: 3
+	Item [113] was consumed by: 2
+	Item [114] was produced by: 6
+	Item [115] was produced by: 7
+	Item [116] was produced by: 5
+	Item [117] was produced by: 4
+	Item [114] was consumed by: 5
+	Item [118] was produced by: 8
+	Item [115] was consumed by: 1
+	Item [116] was consumed by: 6
+	Item [117] was consumed by: 8
+	Item [118] was consumed by: 7
+	Item [119] was produced by: 9
+	Item [120] was produced by: 10
+	Item [119] was consumed by: 4
+	Item [120] was consumed by: 3
+	Item [121] was produced by: 2
+	Item [122] was produced by: 3
+	Item [123] was produced by: 1
+	Item [121] was consumed by: 7
+	Item [122] was consumed by: 5
+	Item [123] was consumed by: 1
+	Item [124] was produced by: 7
+	Item [125] was produced by: 6
+	Item [126] was produced by: 5
+	Item [127] was produced by: 4
+	Item [124] was consumed by: 4
+	Item [128] was produced by: 8
+	Item [125] was consumed by: 2
+	Item [126] was consumed by: 6
+	Item [127] was consumed by: 8
+	Item [129] was produced by: 10
+	Item [130] was produced by: 9
+	Item [128] was consumed by: 1
+	Item [129] was consumed by: 5
+	Item [130] was consumed by: 7
+	Item [131] was produced by: 3
+	Item [132] was produced by: 1
+	Item [133] was produced by: 2
+	Item [131] was consumed by: 4
+	Item [132] was consumed by: 2
+	Item [133] was consumed by: 6
+	Item [134] was produced by: 6
+	Item [135] was produced by: 5
+	Item [136] was produced by: 7
+	Item [137] was produced by: 4
+	Item [134] was consumed by: 1
+	Item [135] was consumed by: 8
+	Item [138] was produced by: 8
+	Item [139] was produced by: 9
+	Item [136] was consumed by: 4
+	Item [140] was produced by: 10
+	Item [137] was consumed by: 1
+	Item [138] was consumed by: 2
+	Item [139] was consumed by: 6
+	Item [140] was consumed by: 8
+	Item [141] was produced by: 2
+	Item [142] was produced by: 3
+	Item [143] was produced by: 1
+	Item [144] was produced by: 5
+	Item [141] was consumed by: 2
+	Item [145] was produced by: 7
+	Item [142] was consumed by: 1
+	Item [146] was produced by: 6
+	Item [147] was produced by: 4
+	Item [143] was consumed by: 6
+	Item [148] was produced by: 8
+	Item [144] was consumed by: 8
+	Item [145] was consumed by: 1
+	Item [149] was produced by: 9
+	Item [146] was consumed by: 6
+	Item [147] was consumed by: 8
+	Item [150] was produced by: 10
+Producer Thread joined: 1
+Producer Thread joined: 2
+Producer Thread joined: 3
+Producer Thread joined: 4
+Producer Thread joined: 5
+Producer Thread joined: 6
+Producer Thread joined: 7
+Producer Thread joined: 8
+	Item [148] was consumed by: 1
+	Item [149] was consumed by: 6
+	Item [150] was consumed by: 8
+Producer Thread joined: 9
+Producer Thread joined: 10
+Consumer Thread joined: 1
+Consumer Thread joined: 2
+Consumer Thread joined: 3
+Consumer Thread joined: 4
+Consumer Thread joined: 5
+Consumer Thread joined: 6
+Consumer Thread joined: 7
+Consumer Thread joined: 8
+Time: 2019-5-5 12:53:47
+
+___Testing Arrays___
+Produced || Consumed
+     1   ||   1
+     2   ||   2
+     3   ||   3
+     4   ||   4
+     5   ||   5
+     6   ||   6
+     7   ||   7
+     8   ||   8
+     9   ||   9
+    10   ||   10
+    11   ||   11
+    12   ||   12
+    13   ||   13
+    14   ||   14
+    15   ||   15
+    16   ||   16
+    17   ||   17
+    18   ||   18
+    19   ||   19
+    20   ||   20
+    21   ||   21
+    22   ||   22
+    23   ||   23
+    24   ||   24
+    25   ||   25
+    26   ||   26
+    27   ||   27
+    28   ||   28
+    29   ||   29
+    30   ||   30
+    31   ||   31
+    32   ||   32
+    33   ||   33
+    34   ||   34
+    35   ||   35
+    36   ||   36
+    37   ||   37
+    38   ||   38
+    39   ||   39
+    40   ||   40
+    41   ||   41
+    42   ||   42
+    43   ||   43
+    44   ||   44
+    45   ||   45
+    46   ||   46
+    47   ||   47
+    48   ||   48
+    49   ||   49
+    50   ||   50
+    51   ||   51
+    52   ||   52
+    53   ||   53
+    54   ||   54
+    55   ||   55
+    56   ||   56
+    57   ||   57
+    58   ||   58
+    59   ||   59
+    60   ||   60
+    61   ||   61
+    62   ||   62
+    63   ||   63
+    64   ||   64
+    65   ||   65
+    66   ||   66
+    67   ||   67
+    68   ||   68
+    69   ||   69
+    70   ||   70
+    71   ||   71
+    72   ||   72
+    73   ||   73
+    74   ||   74
+    75   ||   75
+    76   ||   76
+    77   ||   77
+    78   ||   78
+    79   ||   79
+    80   ||   80
+    81   ||   81
+    82   ||   82
+    83   ||   83
+    84   ||   84
+    85   ||   85
+    86   ||   86
+    87   ||   87
+    88   ||   88
+    89   ||   89
+    90   ||   90
+    91   ||   91
+    92   ||   92
+    93   ||   93
+    94   ||   94
+    95   ||   95
+    96   ||   96
+    97   ||   97
+    98   ||   98
+    99   ||   99
+   100   ||   100
+   101   ||   101
+   102   ||   102
+   103   ||   103
+   104   ||   104
+   105   ||   105
+   106   ||   106
+   107   ||   107
+   108   ||   108
+   109   ||   109
+   110   ||   110
+   111   ||   111
+   112   ||   112
+   113   ||   113
+   114   ||   114
+   115   ||   115
+   116   ||   116
+   117   ||   117
+   118   ||   118
+   119   ||   119
+   120   ||   120
+   121   ||   121
+   122   ||   122
+   123   ||   123
+   124   ||   124
+   125   ||   125
+   126   ||   126
+   127   ||   127
+   128   ||   128
+   129   ||   129
+   130   ||   130
+   131   ||   131
+   132   ||   132
+   133   ||   133
+   134   ||   134
+   135   ||   135
+   136   ||   136
+   137   ||   137
+   138   ||   138
+   139   ||   139
+   140   ||   140
+   141   ||   141
+   142   ||   142
+   143   ||   143
+   144   ||   144
+   145   ||   145
+   146   ||   146
+   147   ||   147
+   148   ||   148
+   149   ||   149
+   150   ||   150
+Consume and Produce arrays match.
+
+Elapsed time: 31 secs

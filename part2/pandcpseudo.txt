@@ -1,0 +1,105 @@
+int N,P,C,X,Ptime,Ctime
+int* Queue, ProducerArray, ConsumerArray
+int first, top
+
+int main(args)
+{
+	mlock = mutex lock (starting unlocked)
+	empty = counting semaphore (starting at 0)
+	full = counting semaphore (starting at N)
+
+	N, P, C, X, Ptime, Ctime = initialized from args
+	XC = P*X/C
+	overconsume = P*X - XC
+
+	Queue = Array[N]	// Queue will be made up of an array with two pointers to the front and end of the queue
+	first, top = -1		// The contents only matter between the two pointers, if both pointers are the same then
+				// the queue contains a single element. If both pointers are negative, queue is empty
+
+	ProducerArray = Array[P*X]
+	ConsumerArray = Array[P*X]
+
+	for (1 to P)
+		Create producer threads
+	for (1 to C)
+		Create consumer threads
+	for (1 to P)
+		Join producers
+	for (1 to C)
+		Join consumers
+
+	for (0 to P*X)
+		if (ProducerArray[i] != ConsumerArray[i])
+			print("Array mismatch")
+		else
+			print("Arrays match")
+}
+
+
+void* produce(threads)
+{
+	static counter = 0
+
+	for (0 to X)
+	{
+		wait(full)		// If full, waits to produce
+		wait(mlock)	// Wait to enter critical section
+		item = enqueue(counter++)
+		ProducerArray[counter] = item
+		signal(mlock)	// Unlocks critical section
+		signal(empty)		// Signals not empty
+
+		print("producer output")
+		sleep(Ptime)
+	}
+}
+
+void* consume(threads)
+{
+	static counter = 0
+
+	if (threadid is C) {XC = XC + overconsume}
+
+	for(0 to XC) 	// Amount of items per consumer
+	{
+		wait(empty)		// If empty, waits to consumer
+		wait(mlock)	// Wait to enter critical section
+		item = dequeue()
+		ConsumerArray[counter++] = item
+		signal(mlock)	// Unlocks critical section
+		signal(full)		// Signals not empty
+
+		print("consumer output")
+		sleep(Ctime)
+	}
+}
+
+int enqueue(item)
+{
+	if ( (first && top) < 0)
+		Queue[first] = item
+	else if ( first < top )
+		Queue[first] = item
+	else if ( top + 1 < first )
+		Queue[first] = item
+	else
+		print("Error: full")
+	
+	return item
+}
+
+int dequeue()
+{
+	int item
+
+	if ( first != top )
+		item = Queue[first]
+		first++
+	else if ( first == top )
+		item = Queue[first]
+		first, top = -1
+	else
+		print("Error: empty")
+
+	return item
+}
